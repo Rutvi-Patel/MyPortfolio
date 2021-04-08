@@ -738,7 +738,7 @@ input, select, textarea {
 	float: left;
 	width: 50%;
 	padding: 10px;
-	height: 130px; /* Should be removed. Only for demonstration */
+	height: auto; /* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
@@ -1050,7 +1050,7 @@ button.modal-button:hover {opacity: 0.46;}
 	left: 0;
 	top: 0;
 	width: 100%; /* Full width */
-	height: 100%; /* Full height */
+	height: auto;/* Full height */
 	overflow: auto; /* Enable scroll if needed */
 	background-color: rgb(0,0,0); /* Fallback color */
 	background-color: rgba(0, 0, 0, 0.85); /* Black w/ opacity */
@@ -1063,6 +1063,7 @@ button.modal-button:hover {opacity: 0.46;}
 	padding: 20px;
 	border: 1px solid rgb(29, 28, 28);
 	width: 100%;
+	height: auto;
   }
   
   /* The Close Button */
